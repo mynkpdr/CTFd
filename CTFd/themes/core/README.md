@@ -33,12 +33,14 @@ To create a custom theme based on the core-beta one, here are the steps to follo
    To clarify the structure of the project, the `./assets` folder contains the uncompiled source files (the ones you can modify), while the `./static` directory contains the compiled ones.
 
 2. Install [Yarn](https://classic.yarnpkg.com/en/) following the [official installation guides](https://classic.yarnpkg.com/en/docs/install).
+
    - **Yarn** is a dependency management tool used to install and manage project packages
    - **[Vite](https://vite.dev/guide/)** handles the frontend tooling in CTFd by building optimized assets that are served through Flask.
 
 3. Run `yarn install` in the root of `custom-theme` folder to install the necessary Node packages including `vite`.
 
 4. Run the appropriate yarn build mode:
+
    - Run `yarn dev` (this will run `vite build --watch`) while developing the theme.
    - Run `yarn build` (which will run `vite build`) for a one-time build.
      Vite allows you to preview changes instantly with hot reloading.

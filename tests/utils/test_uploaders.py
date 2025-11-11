@@ -2,13 +2,13 @@ import os
 from io import BytesIO
 
 import boto3
-from moto import mock_s3
+from moto import mock_aws
 
 from CTFd.utils.uploads import S3Uploader, rmdir
 from tests.helpers import create_ctfd, destroy_ctfd
 
 
-@mock_s3
+@mock_aws
 def test_s3_uploader():
     conn = boto3.resource("s3", region_name="test-region")
     conn.create_bucket(
@@ -35,7 +35,7 @@ def test_s3_uploader():
     destroy_ctfd(app)
 
 
-@mock_s3
+@mock_aws
 def test_s3_uploader_custom_prefix():
     conn = boto3.resource("s3", region_name="test-region")
     conn.create_bucket(
@@ -66,7 +66,7 @@ def test_s3_uploader_custom_prefix():
     destroy_ctfd(app)
 
 
-@mock_s3
+@mock_aws
 def test_s3_sync():
     conn = boto3.resource("s3", region_name="test-region")
     conn.create_bucket(

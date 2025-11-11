@@ -127,7 +127,7 @@ def create_ctfd(
     ctf_description="CTF description",
     name="admin",
     email="admin@examplectf.com",
-    password="password",
+    password="admin",
     user_mode="users",
     setup=True,
     enable_plugins=False,

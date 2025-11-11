@@ -1,11 +1,11 @@
-# CTFd 3.8.0 - Enhanced Edition
+# CTFd 3.8.1 - Enhanced Edition
 
-A production-ready, modded version of [CTFd 3.8.0](https://github.com/CTFd/CTFd) with enhanced plugins and themes for a superior Capture The Flag competition experience.
+A production-ready, modded version of [CTFd 3.8.1](https://github.com/CTFd/CTFd) with enhanced plugins and themes for a superior Capture The Flag competition experience.
 
 ## 🚀 Features
 
 ### Base Platform
-- **CTFd Version**: 3.8.0 (Latest)
+- **CTFd Version**: 3.8.1 (Latest)
 - **Production Ready**: All configurations optimized for production deployment
 - **Enhanced Compatibility**: Custom modifications ensure all plugins work seamlessly with the latest CTFd version
 
@@ -15,7 +15,7 @@ A production-ready, modded version of [CTFd 3.8.0](https://github.com/CTFd/CTFd)
 - **Retro-styled theme** with 90s CRT aesthetics
 - Features old-school fonts, screen flicker effects, and vintage notification sounds
 - Perfect for themed competitions or retro-style events
-- Enhanced for CTFd 3.8.0 compatibility
+- Enhanced for CTFd 3.8.1 compatibility
 
 #### **Core**
 - Standard CTFd theme with modern, clean interface
@@ -44,7 +44,7 @@ A production-ready, modded version of [CTFd 3.8.0](https://github.com/CTFd/CTFd)
 - **Challenge Integration**: Seamless integration with container-based challenges
 
 ### 🔧 Technical Enhancements
-- **Cross-compatibility fixes** for all themes and plugins with CTFd 3.8.0
+- **Cross-compatibility fixes** for all themes and plugins with CTFd 3.8.1
 - **Performance optimizations** for production environments
 - **Security hardening** and stability improvements
 - **Enhanced error handling** and logging
@@ -115,8 +115,8 @@ volumes:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/mynkpdr/CTFd-3.8.0.git
-   cd CTFd-3.8.0
+   git clone https://github.com/mynkpdr/CTFd.git
+   cd CTFd
    ```
 
 2. **Start with Docker Compose**
